@@ -1,1 +1,14 @@
 /* Add CSS Styling */
+
+.avatar.proportioned {
+    width: 300px;
+    height: auto;
+}
+
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+
+}
+
+/* Chain selectors are used so that rules can only be applied when they share the same selector elements. */
